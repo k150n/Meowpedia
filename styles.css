@@ -1,0 +1,148 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    background-size: 50%;
+    
+    font-size: 14px;
+    line-height: 28px;
+    font-family: "Comic Sans MS", serif;
+    color: #222222;
+    margin: 0px 0px 20px 0px;
+    
+}
+.meowpedia{
+    text-align: center;
+    font-size: larger;
+}
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+@media (max-width: 768px) {
+    body {
+        width: 100%; 
+    }
+}
+main {
+    text-align: left;
+    font-size: 14px;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    
+    margin: 1px auto; 
+}
+
+
+
+
+.topnav {
+    background-color: #000000;
+    overflow: auto;
+    position: sticky; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 998; 
+    border: 5px double black;
+    border-radius: 25px;
+    
+}
+
+.topnav a {
+    float: left;
+    color: rgb(247, 229, 225);
+    text-align: center;
+    padding: 2% 1%;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+}
+
+.topnav a:hover {
+    background-color: rgb(247, 229, 225);
+    color: black;
+    border-radius: 25px;
+    overflow: visible; 
+    
+}
+
+.name {
+    text-decoration: none;
+    color: #000000;
+}
+
+.items__item {
+    display: flex;
+    margin: 0px 0px 30px 0px;
+}
+
+.items__image {
+    flex: 0 0 33.333%;
+    position: relative;
+    min-height: 150px;
+    border-radius: 25px;
+    
+}
+
+.items__image img {
+    width: 100%;
+    height: 100;
+    object-fit: contain;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+}
+
+.items h2{
+    text-align: center;
+}
+
+.items__body {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 30px;
+}
+
+.items__label {
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+}
+.items__text{
+    font-size: 18px;
+}
+.items__text a{
+    text-decoration: none ;
+    color: #868989;
+    
+    
+}
+.items__text a:hover {
+    color: rgb(247, 229, 225);
+    
+    
+}
+.items__title_title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.theme {
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+} 
+.theme svg{
+    cursor: pointer;
+}

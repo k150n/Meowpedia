@@ -1,0 +1,86 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    background-size: 50%;
+    color: #222222;
+    
+    
+}
+
+main {
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+.topnav {
+    background-color: #000000;
+    
+    border: 5px double black;
+    
+    
+}
+
+.topnav a {
+    
+    color: rgb(247, 229, 225);
+    
+    
+    
+}
+
+.topnav a:hover {
+    background-color: rgb(247, 229, 225);
+    color: black;
+    
+    
+}
+
+.name {
+   
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.items__text a{
+   
+    color: #868989;
+    
+    
+}
+.items__text a:hover {
+    color: rgb(247, 229, 225);
+    
+    
+}
+
+
+.theme {
+    
+    background: #ffffff;
+    
+    
+}
+.theme:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.change-Theme[data-theme="dark"]{
+    display: block;
+}
+.change-Theme[data-theme="light"]{
+    display: none;
+}
